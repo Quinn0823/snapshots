@@ -8,7 +8,7 @@ var bIsAndroid = sUserAgent.match(/android/i) == "android";
 var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
 var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
 if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
-    windows.location = '/snapshots/v11/v11.0/m/404.html';
+    window.location = "m/404.html";
 } else {
     
 }
