@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'segoepr';
+    src: url(/fonts/segoepr.ttf);
+}
+h1, h2, h3, h4, h5, h6, p, dd, a, li, td{
+    font-family: 'segoepr';
+}
+
+h1 {
+    color: #0000ff;
+    text-align: center;
+    text-shadow: 5px 5px 10px #A8A8A8;
+}
+h2, h3, h4, h5, h6 {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #0000ff;
+}
+
+p, ul.first, ol.first {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#about p {
+    margin-left: 12%;
+    margin-right: 10%;
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+p.first {
+    margin-left: 12%;
+}
+
+a:link, a:visited {
+    color: #0000FF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+hr {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+table {
+    margin-left: 12%;
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 1px solid #DFE2E5;
+}
+td {
+    padding: 6px;
+    text-align: center;
+}
