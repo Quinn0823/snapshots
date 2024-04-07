@@ -2,7 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     border: 0px;
-    background-image: url("svgs/background.svg");
+    background-image: url("/snapshots/v9/v9.0/svgs/background.svg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
