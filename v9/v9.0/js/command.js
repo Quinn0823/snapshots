@@ -1,13 +1,13 @@
 function command() {
     var command = document.getElementById('command').value;
     if (command == "Home" || command == "home") {
-        self.location = "";
+        window.location = "";
     } else if (command == "Music" || command == "music") {
-        self.location = "music.html";
+        window.location = "music.html";
     } else if (command == "About" || command == "about") {
-        self.location = "about.html";
+        window.location = "about.html";
     } else if (command == "Test" || command == "test") {
-        self.location = "test.html";
+        window.location = "test.html";
     } else {
         alert("Error");
     }
