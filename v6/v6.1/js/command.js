@@ -1,5 +1,5 @@
 function command() {
-    var command = document.getElementById('command').value;
+    var command = document.getElementById("command").value;
     if (command == "Home" || command == "home") {
         window.location = "home.html";
     } else if (command == "About" || command == "about") {
