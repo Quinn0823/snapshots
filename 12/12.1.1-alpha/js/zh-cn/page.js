@@ -4,7 +4,7 @@ document.getElementById("header").innerHTML = "<div class='list'><ul><img src='i
 document.getElementById("footer").innerHTML = "<div class='sel'><select id='lang' onchange='langchange(); language()'><option value='1'>United States - English</option><option value='2' selected='selected'>简体中文（中国大陆）</option></select></div><span style='text-align: center; display:block; '>📅 最近更新：2022年7月23日 | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " 邱琦轩 保留所有权利。</span>";
 
 var path = window.location.pathname;
-path = path.substring(28);
+path = path.substring(60);
 
 function langchange() {
     if(document.getElementById("lang").value=="1") {
