@@ -1,0 +1,184 @@
+* {
+    font-family: "SF Pro Round", "PingFang SC",  Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    color: #6699cc;
+}
+h2 {
+    margin: 10px;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #6699cc;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #6699cc;
+    padding: 0;
+}
+h3 i {
+    font-size: 22px;
+    height: 22px;
+    width: 22px;
+}
+h3.am, h3.am i {
+    color: #f50e39;
+}
+
+p, span, a, li, select{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+i {
+    color: #6699cc;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+
+.cont {
+    margin-left: 20px;
+}
+span.com {
+    font-style: italic;
+    color: #99ccff;
+}
+
+ul, ol {
+    margin: 0;
+    padding-left: 40px;
+}
+li {
+    margin: 0;
+}
+
+a, a i{
+    color: #6699cc;
+    text-decoration: underline;
+}
+a:hover, a:hover i {
+    transition: 0.2s;
+    color: #99ccff;
+}
+
+details {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border: 3px solid #6699cc;
+    background-color: #fff;
+    color: #6699cc;
+    border-radius: 18px;
+    padding: 5px;
+}
+details hr {
+    background-color: #6699cc;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+summary {
+    line-height: 20px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+details.nosnsh, details.nosnsh *{
+    color: #000;
+    border-color: #000;
+}
+details.nosnsh a, a.nosnsh {
+    color: #000;
+}
+details.nosnsh hr {
+    background-color: #000;
+}
+
+
+#footeri details {
+    border: 3px solid #6699cc;
+    color: #6699cc;
+    border-radius: 10px;
+}
+#footeri details hr {
+    background-color: #6699cc;
+    border-radius: 10px;
+}
+#footeri span i {
+    color: #fff;
+}
+#footeri a i {
+    text-decoration: underline;
+}
+#footeri a:hover i {
+    color: #6699cc;
+}
+
+.scratch h3 {
+    color: #f4972d;
+}
+.scratch hr {
+    background-color: #f4972d;
+}
+.scratch h3 i, .scratch summary i {
+    color: #f4972d;
+}
+.scratch details {
+    color: #f4972d;
+    border: 3px solid #f4972d;
+}
+.scratch details details, #cns .scratch details details details {
+    color: #6699cc;
+    border: 0;
+}
+#cns .scratch details details {
+    color: #f4972d;
+    border: 3px solid #f4972d;
+    border-radius: 10px;
+    padding: 5px;
+}
+#en .scratch details details, 
+#cns .scratch details details details,
+details details {
+    border: 0;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+#en .scratch details details summary i, 
+#cns .scratch details details details summary i{
+    color: #6699cc;
+}
+
+td, th {
+    padding: 5px;
+    border: 3px solid #6699cc;
+}
+table {
+    text-align: center;
+    border-collapse: collapse;
+    float: left;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+thead {
+    background-color: #6699cc;
+    color: #fff;
+}
+tr td:nth-child(1), 
+tr:nth-child(1) td:nth-child(2), 
+tr:nth-child(13) td:nth-child(2) {
+    background-color: #99ccff;
+    color: #fff;
+}

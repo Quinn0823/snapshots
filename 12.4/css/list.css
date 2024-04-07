@@ -1,0 +1,52 @@
+.list {
+    padding: 0;
+    height: 46px;
+    border-radius: 18px;
+    border: 3px solid #6699cc;
+    background-color: #99ccff;
+}
+.list ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+}
+.list ul img {
+    width: 46px;
+    height: 46px;
+    float: left;
+}
+.list ul li {
+    width: 10%;
+    height: 30px;
+    background-color: #fff;
+    border: 3px solid #6699cc;
+    border-radius: 10px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.list ul li.about {
+    float: right;
+    margin-left: 0;
+    margin-right: 5px;
+}
+.list ul li a, .list ul li a.active {
+    color: #6699cc;
+    margin: 0;
+    margin-top: -3px;
+    line-height: 36px;
+    width: 100%;
+    text-decoration: none;
+    display:flex;
+    justify-content:center;
+    white-space: nowrap;
+}
+.list ul li:hover{
+    color: #fff;
+    transition: 0.2s;
+    background-color: #6699cc;
+}
+.list ul li:hover a, .list ul li a:hover {
+    color: #fff;
+}

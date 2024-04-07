@@ -1,0 +1,113 @@
+@font-face {
+	font-family:'PingFang SC';
+	src:url("/fonts/PingFangSC-Regular.woff2") format("woff2");
+}
+@font-face {
+	font-family:'SF Pro Display';
+	src:url("/fonts/sf-pro-display_regular.woff2") format("woff2");
+}
+@font-face {
+	font-family:'SF Pro Icons';
+	src:url("/fonts/sf-pro-icons_regular.woff2") format("woff2");
+}
+@font-face {
+	font-family:'SF Pro Text';
+	src:url("/fonts/sf-pro-text_regular.woff2") format("woff2");
+}
+* {
+    font-family: "SF Pro Text", "SF Pro Icons", "PingFang SC", Helvetica, Arial, sans-serif;
+}
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: #6699cc;
+}
+h2 {
+    margin: 15px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #6699cc;
+}
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #6699cc;
+}
+h3.scratch {
+    color: #f4972d;
+}
+
+p, span, a, li, select {
+    font-size: 16px;
+    margin: 0;
+}
+.cont {
+    margin-left: 20px;
+}
+span.com {
+    font-style: italic;
+    color: #99ccff;
+}
+
+ul, ol {
+    margin: 0;
+    padding-left: 40px;
+}
+li {
+    margin: 0;
+}
+
+
+sup.nw {
+    color: #fff;
+}
+sup.nt {
+    color: #6699cc;
+}
+
+a {
+    color: #6699cc;
+    text-decoration: underline;
+}
+a:hover {
+    color: #99ccff;
+}
+
+details {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    border: 3px solid #6699cc;
+    color: #6699cc;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+}
+details details {
+    border: 0px;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+#footeri details {
+    border-radius: 12px;
+}
+
+.scratch h3 {
+    color: #f4972d;
+}
+.scratch hr {
+    background-color: #f4972d;
+}
+.scratch details {
+    color: #f4972d;
+    border: 3px solid #f4972d;
+}
+.scratch details details {
+    color: #6699cc;
+    border: 0;
+}
