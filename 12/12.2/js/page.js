@@ -1,19 +1,19 @@
 var path = window.location.pathname
 var title_en = document.title, title_cns = document.title;
 
-if (path == "/snapshot-12.2.2/index.html" || path == "/snapshot-12.2.2/") {
+if (path == "/snapshots/12/12.2.2/index.html" || path == "/snapshots/12/12.2.2/") {
     title_cns = "首页";
-} else if (path == "/snapshot-12.2.2/projects.html") {
+} else if (path == "/snapshots/12/12.2.2/projects.html") {
     title_cns = "项目";
-} else if (path == "/snapshot-12.2.2/media/music.html") {
+} else if (path == "/snapshots/12/12.2.2/media/music.html") {
     title_cns = "音乐";
-} else if (path == "/snapshot-12.2.2/media/photos.html") {
+} else if (path == "/snapshots/12/12.2.2/media/photos.html") {
     title_cns = "照片";
-} else if (path == "/snapshot-12.2.2/media/videos.html") {
+} else if (path == "/snapshots/12/12.2.2/media/videos.html") {
     title_cns = "视频";
-} else if (path == "/snapshot-12.2.2/lab.html") {
+} else if (path == "/snapshots/12/12.2.2/lab.html") {
     title_cns = "实验室";
-} else if (path == "/snapshot-12.2.2/about.html") {
+} else if (path == "/snapshots/12/12.2.2/about.html") {
     title_cns = "关于";
 }
 
