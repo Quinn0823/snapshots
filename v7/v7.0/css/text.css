@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'segoepr';
-    src: url(/fonts/segoepr.ttf);
+    font-family: "segoepr";
+    src: url("/snapshots/v7/v7.0/fonts/segoepr.ttf");
 }
-h1, h2, h3, h4, h5, h6, p, dd, a, li, td{
-    font-family: 'segoepr';
+h1, h2, h3, h4, h5, h6, p, dd, a, li, td {
+    font-family: "segoepr";
 }
 
 h1 {
