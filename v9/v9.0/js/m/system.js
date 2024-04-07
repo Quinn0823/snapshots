@@ -11,7 +11,7 @@ function browserRedirect() {
     if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
         
     } else {
-        self.location = "";
+        window.location = "";
     }
 }
 browserRedirect();
