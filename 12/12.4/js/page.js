@@ -2,17 +2,17 @@ var path = window.location.pathname
 var title_en = document.title
 var title_cns = document.title;
 
-if (path == "/snapshot-12.4/index.html" || path == "/snapshot-12.4/") {
+if (path == "/snapshots/12/12.4/index.html" || path == "/snapshots/12/12.4/") {
     title_cns = "首页";
-} else if (path == "/snapshot-12.4/projects.html") {
+} else if (path == "/snapshots/12/12.4/projects.html") {
     title_cns = "项目";
-} else if (path == "/snapshot-12.4/music.html") {
+} else if (path == "/snapshots/12/12.4/music.html") {
     title_cns = "音乐";
-} else if (path == "/snapshot-12.4/lab.html") {
+} else if (path == "/snapshots/12/12.4/lab.html") {
     title_cns = "实验室";
-} else if (path == "/snapshot-12.4/website.html") {
+} else if (path == "/snapshots/12/12.4/website.html") {
     title_cns = "此网站";
-} else if (path == "/snapshot-12.4/qs/index.html") {
+} else if (path == "/snapshots/12/12.4/qs/index.html") {
     title_cns = "QuinnStandard";
 }
 
