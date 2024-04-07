@@ -10,7 +10,7 @@ var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
 if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
     var tip = confirm("You are using phone/pad to visit Quinn-Web. Do you want to go to the pages for phone/pad?");
     if (tip == true) {
-        windows.location = '/snapshots/v11/v11.0/m/';
+        windows.location = 'm/';
     }
 } else {
     
